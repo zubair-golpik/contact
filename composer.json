@@ -1,0 +1,24 @@
+{
+    "name": "golpik/contact",
+    "description": "Basic package to setup contact us form, it will send email as well save inquiry to db",
+    "authors": [
+        {
+            "name": "Zubair Ali",
+            "email": "zubair.ali@golpik.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "golpik\\contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "golpik\\contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
